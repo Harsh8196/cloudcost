@@ -19,7 +19,7 @@ export function LoadingContainer({isLoading}) {
         if(status === 'Disconnected') {
             setStatusText('Please Connect Walllet')
         } else {
-            setStatusText('Please Connect Walllet')
+            setStatusText(' Please Wait we are Loading Data')
         }
     },[status])
     return (
